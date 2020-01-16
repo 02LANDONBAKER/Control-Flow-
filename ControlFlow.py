@@ -1,8 +1,8 @@
-"""
-Programmer: Landon Baker
-Date: 12.16.19
-Program: Guess My Number
-"""
+
+# Programmer: Landon Baker
+# Date: 12.16.19
+# Program: Guess My Number
+
 
 MyNumber = 7
 
@@ -20,11 +20,11 @@ while guess != MyNumber:
 print("\nCongratulations on guessing my number\n")
 
 
-"""
-Programmer: Landon Baker
-Date: 12.16.19
-Program: 1 Through 10
-"""
+
+# Programmer: Landon Baker
+# Date: 12.16.19
+# Program: 1 Through 10
+
 
 x = 1
 
