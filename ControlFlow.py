@@ -20,8 +20,8 @@ Program: While Loop Nested Inside Of A For Loop
 
 for i in range(4):
     print("For Loop: " + str(i))
+    print("")
     x = i
     while x >= 0:
         print("\tWhile Loop: " + str(x))
         x = x - 1
-        
