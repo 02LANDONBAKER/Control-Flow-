@@ -1,3 +1,10 @@
+# Date: 1.20.20
+# Program: Double For Loop
+
+for i in range(3):
+    print("Outer For Loop " + str(i))
+    for k in range(4):
+        print("\tInner For Loop " + str(k))
 
 # Programmer: Landon Baker
 # Date: 12.16.19
@@ -20,6 +27,19 @@ while guess != MyNumber:
 print("\nCongratulations on guessing my number\n")
 
 
+"""
+Programmer: Landon Baker
+Date: 1.23.20
+Program: While Loop Nested Inside Of A For Loop
+"""
+
+for i in range(4):
+    print("For Loop: " + str(i))
+    print("")
+    x = i
+    while x >= 0:
+        print("\tWhile Loop: " + str(x))
+        x = x - 1
 
 # Programmer: Landon Baker
 # Date: 12.16.19
@@ -33,5 +53,6 @@ x = 1
 
 while x <= 10:
     print(x)
-    x+=1
+    x += 1
 
+print("\n ********************\n")
